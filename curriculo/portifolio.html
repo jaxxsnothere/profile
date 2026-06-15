@@ -69,418 +69,432 @@
 
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-secondary">
-    <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-secondary">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link active" href="portifolio.html">Portfólio</a></li>
-                <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="portifolio.html">Portfólio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
         </div>
+    </nav>
+
+    <!-- TÍTULO -->
+    <div class="container py-5 text-center">
+        <h1 class="portfolio-title text-primary">Meu Portfólio</h1>
     </div>
-</nav>
 
-<!-- TÍTULO -->
-<div class="container py-5 text-center">
-    <h1 class="portfolio-title text-primary">Meu Portfólio</h1>
-</div>
+    <!-- CARROSSEL -->
+    <div class="container">
 
-<!-- CARROSSEL -->
-<div class="container">
+        <div id="slider1" class="carousel slide mx-auto shadow-lg border border-secondary rounded"
+            data-bs-ride="carousel" style="max-width: 800px;">
 
-    <div id="slider1" class="carousel slide mx-auto shadow-lg border border-secondary rounded"
-        data-bs-ride="carousel" style="max-width: 800px;">
+            <div class="carousel-inner">
 
-        <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/p1.png" data-bs-toggle="modal" data-bs-target="#modal1">
+                </div>
 
-            <div class="carousel-item active">
-                <img src="imagens/p1.png" data-bs-toggle="modal" data-bs-target="#modal1">
-            </div>
+                <div class="carousel-item">
+                    <img src="imagens/p2.png" data-bs-toggle="modal" data-bs-target="#modal2">
+                </div>
 
-            <div class="carousel-item">
-                <img src="imagens/p2.png" data-bs-toggle="modal" data-bs-target="#modal2">
-            </div>
+                <div class="carousel-item">
+                    <img src="imagens/p3.png" data-bs-toggle="modal" data-bs-target="#modal3">
+                </div>
 
-            <div class="carousel-item">
-                <img src="imagens/p3.png" data-bs-toggle="modal" data-bs-target="#modal3">
-            </div>
+                <div class="carousel-item">
+                    <img src="imagens/p4.png" data-bs-toggle="modal" data-bs-target="#modal4">
+                </div>
 
-            <div class="carousel-item">
-                <img src="imagens/p4.png" data-bs-toggle="modal" data-bs-target="#modal4">
-            </div>
+                <div class="carousel-item">
+                    <img src="imagens/p5.png" data-bs-toggle="modal" data-bs-target="#modal5">
+                </div>
 
-            <div class="carousel-item">
-                <img src="imagens/p5.png" data-bs-toggle="modal" data-bs-target="#modal5">
-            </div>
+                <div class="carousel-item">
+                    <img src="imagens/p6.png" data-bs-toggle="modal" data-bs-target="#modal6">
+                </div>
 
-            <div class="carousel-item">
-                <img src="imagens/p6.png" data-bs-toggle="modal" data-bs-target="#modal6">
-            </div>
+                <div class="carousel-item">
+                    <img src="imagens/p7.png" data-bs-toggle="modal" data-bs-target="#modal7">
+                </div>
 
-            <div class="carousel-item">
-                <img src="imagens/p7.png" data-bs-toggle="modal" data-bs-target="#modal7">
-            </div>
+                <div class="carousel-item">
+                    <img src="imagens/p8.png" data-bs-toggle="modal" data-bs-target="#modal8">
+                </div>
 
-            <div class="carousel-item">
-                <img src="imagens/p8.png" data-bs-toggle="modal" data-bs-target="#modal8">
-            </div>
+                <div class="carousel-item">
+                    <img src="imagens/p9.png" data-bs-toggle="modal" data-bs-target="#modal9">
+                </div>
 
-            <div class="carousel-item">
-                <img src="imagens/p9.png" data-bs-toggle="modal" data-bs-target="#modal9">
-            </div>
+                <div class="carousel-item">
+                    <img src="imagens/p10.png" data-bs-toggle="modal" data-bs-target="#modal10">
+                </div>
 
-            <div class="carousel-item">
-                <img src="imagens/p10.png" data-bs-toggle="modal" data-bs-target="#modal10">
-            </div>
+                <div class="carousel-item">
+                    <div class="gallery-slide">
+                        <div class="row g-2">
 
-            <div class="carousel-item">
-                <div class="gallery-slide">
-                    <div class="row g-2">
+                            <div class="col-4"><img src="imagens/p11.png" data-bs-target="#modal11"
+                                    data-bs-toggle="modal"></div>
+                            <div class="col-4"><img src="imagens/p12.png" data-bs-target="#modal12"
+                                    data-bs-toggle="modal"></div>
+                            <div class="col-4"><img src="imagens/p13.png" data-bs-target="#modal13"
+                                    data-bs-toggle="modal"></div>
 
-                        <div class="col-4"><img src="imagens/p11.png" data-bs-target="#modal11" data-bs-toggle="modal"></div>
-                        <div class="col-4"><img src="imagens/p12.png" data-bs-target="#modal12" data-bs-toggle="modal"></div>
-                        <div class="col-4"><img src="imagens/p13.png" data-bs-target="#modal13" data-bs-toggle="modal"></div>
+                            <div class="col-4"><img src="imagens/p14.png" data-bs-target="#modal14"
+                                    data-bs-toggle="modal"></div>
+                            <div class="col-4"><img src="imagens/p15.png" data-bs-target="#modal15"
+                                    data-bs-toggle="modal"></div>
+                            <div class="col-4"><img src="imagens/p16.png" data-bs-target="#modal16"
+                                    data-bs-toggle="modal"></div>
 
-                        <div class="col-4"><img src="imagens/p14.png" data-bs-target="#modal14" data-bs-toggle="modal"></div>
-                        <div class="col-4"><img src="imagens/p15.png" data-bs-target="#modal15" data-bs-toggle="modal"></div>
-                        <div class="col-4"><img src="imagens/p16.png" data-bs-target="#modal16" data-bs-toggle="modal"></div>
+                            <div class="col-4"><img src="imagens/p17.png" data-bs-target="#modal17"
+                                    data-bs-toggle="modal"></div>
+                            <div class="col-4"><img src="imagens/p18.png" data-bs-target="#modal18"
+                                    data-bs-toggle="modal"></div>
+                            <div class="col-4"><img src="imagens/p19.png" data-bs-target="#modal19"
+                                    data-bs-toggle="modal"></div>
 
-                        <div class="col-4"><img src="imagens/p17.png" data-bs-target="#modal17" data-bs-toggle="modal"></div>
-                        <div class="col-4"><img src="imagens/p18.png" data-bs-target="#modal18" data-bs-toggle="modal"></div>
-                        <div class="col-4"><img src="imagens/p19.png" data-bs-target="#modal19" data-bs-toggle="modal"></div>
-
+                        </div>
                     </div>
                 </div>
+
             </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#slider1" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
 
         </div>
 
-        <button class="carousel-control-prev" type="button" data-bs-target="#slider1" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-
-        <button class="carousel-control-next" type="button" data-bs-target="#slider1" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
-
     </div>
 
-</div>
-
-<!-- MODAIS (fora do carrossel, agora correto) -->
-<!-- Exemplo (os seus continuam iguais) -->
-<!-- ================= MODAL 1 ================= -->
-<div class="modal fade" id="modal1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Projeto 1</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p1.png" class="img-fluid mb-3 rounded">
-        <p>Projeto desenvolvido em aula utilizando Front-End.</p>
-      </div>
+    <!-- MODAIS (fora do carrossel, agora correto) -->
+    <!-- Exemplo (os seus continuam iguais) -->
+    <!-- ================= MODAL 1 ================= -->
+    <div class="modal fade" id="modal1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto 1</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p1.png" class="img-fluid mb-3 rounded">
+                    <p>Projeto desenvolvido em aula de frontEnd, utilizando Html, Css e React.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- ================= MODAL 2 ================= -->
-<div class="modal fade" id="modal2">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Catálogo de Filmes</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p2.png" class="img-fluid mb-3 rounded">
-        <p>Sistema de cadastro de filmes com edição e exclusão.</p>
-      </div>
+    <!-- ================= MODAL 2 ================= -->
+    <div class="modal fade" id="modal2">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Catálogo de Filmes</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p2.png" class="img-fluid mb-3 rounded">
+                    <p>Um projeto de sistema de cadastro de filmes para computador e celular. A imagem mostra os filmes
+                        já cadastrados com opção de editar as informações presentes ou excluir.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- ================= MODAL 3 ================= -->
-<div class="modal fade" id="modal3">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Cadastro de Filmes</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p3.png" class="img-fluid mb-3 rounded">
-        <p>Cadastro de novos filmes no sistema.</p>
-      </div>
+    <!-- ================= MODAL 3 ================= -->
+    <div class="modal fade" id="modal3">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cadastro de Filmes</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p3.png" class="img-fluid mb-3 rounded">
+                    <p>Um projeto de sistema de cadastro de filmes para computador e celular. A imagem mostra a parte de
+                        Cadastro do sistema, podendo linkar uma imagem para colocar como poster do filme.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- ================= MODAL 4 ================= -->
-<div class="modal fade" id="modal4">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Cadastro de Perfil</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p4.png" class="img-fluid mb-3 rounded">
-        <p>Projeto com banco de dados.</p>
-      </div>
+    <!-- ================= MODAL 4 ================= -->
+    <div class="modal fade" id="modal4">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cadastro de Perfil</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p4.png" class="img-fluid mb-3 rounded">
+                    <p>Projeto de cadastro de perfil vínculado no banco de dados, feito na aula de dispositivos móveis.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- ================= MODAL 5 ================= -->
-<div class="modal fade" id="modal5">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Sistema de Voto</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p5.png" class="img-fluid mb-3 rounded">
-        <p>Sistema de votação.</p>
-      </div>
+    <!-- ================= MODAL 5 ================= -->
+    <div class="modal fade" id="modal5">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sistema de Voto</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p5.png" class="img-fluid mb-3 rounded">
+                    <p>Sistema de votação desenvolvido na aula de dispositivos móveis.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- ================= MODAL 6 ================= -->
-<div class="modal fade" id="modal6">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Cadastro de Quitanda</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p6.png" class="img-fluid mb-3 rounded">
-        <p>Projeto em Python com CRUD.</p>
-      </div>
+    <!-- ================= MODAL 6 ================= -->
+    <div class="modal fade" id="modal6">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cadastro de Quitanda</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p6.png" class="img-fluid mb-3 rounded">
+                    <p>Projeto de cadastro de quitanda, desenvolido em Python na aula de Backend vínculado à banco de
+                        dados com opção de editar e excluir.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- ================= MODAL 7 ================= -->
-<div class="modal fade" id="modal7">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Cadastro de Estoque</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p7.png" class="img-fluid mb-3 rounded">
-        <p>Controle de estoque em Python.</p>
-      </div>
+    <!-- ================= MODAL 7 ================= -->
+    <div class="modal fade" id="modal7">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cadastro de Estoque</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p7.png" class="img-fluid mb-3 rounded">
+                    <p>Projeto de cadastro de estoque, desenvolido em Python na aula de Backend vínculado à banco de
+                        dados. </p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- ================= MODAL 8 ================= -->
-<div class="modal fade" id="modal8">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Rascunho de Currículo</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p8.png" class="img-fluid mb-3 rounded">
-        <p>HTML e CSS básico.</p>
-      </div>
+    <!-- ================= MODAL 8 ================= -->
+    <div class="modal fade" id="modal8">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Rascunho de Currículo</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p8.png" class="img-fluid mb-3 rounded">
+                    <p>HTML e CSS básico.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- ================= MODAL 9 ================= -->
-<div class="modal fade" id="modal9">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Sistema de Grid</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p9.png" class="img-fluid mb-3 rounded">
-        <p>Bootstrap Grid.</p>
-      </div>
+    <!-- ================= MODAL 9 ================= -->
+    <div class="modal fade" id="modal9">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sistema de Grid</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p9.png" class="img-fluid mb-3 rounded">
+                    <p>Atividade de frontEnd utilizando Bootstrap.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- ================= MODAL 10 ================= -->
-<div class="modal fade" id="modal10">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Vitrine Temática</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p10.png" class="img-fluid mb-3 rounded">
-        <p>Swiper + HTML + CSS.</p>
-      </div>
+    <!-- ================= MODAL 10 ================= -->
+    <div class="modal fade" id="modal10">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Vitrine Temática</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p10.png" class="img-fluid mb-3 rounded">
+                    <p>Atividade de frontEnd utilizando Swipper, Html e CSS.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- ================= MODAIS 11–19 ================= -->
+    <!-- ================= MODAIS 11–19 ================= -->
 
-<!-- 11 -->
-<div class="modal fade" id="modal11">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Yasmin - 2026</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p11.png" class="img-fluid mb-3 rounded">
-        <p>Personagem RPG.</p>
-      </div>
+    <!-- 11 -->
+    <div class="modal fade" id="modal11">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Yasmin - 2026</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p11.png" class="img-fluid mb-3 rounded">
+                    <p>Desenho feito pelo celular à mão de uma personagem para RPG.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- 12 -->
-<div class="modal fade" id="modal12">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Heidi e Nitchs</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p12.png" class="img-fluid mb-3 rounded">
-        <p>Arte digital.</p>
-      </div>
+    <!-- 12 -->
+    <div class="modal fade" id="modal12">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Heidi e Nitchs</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p12.png" class="img-fluid mb-3 rounded">
+                    <p>Desenho feito pelo computador com uso do Mouse no paint.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- 13 -->
-<div class="modal fade" id="modal13">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">So-min</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p13.png" class="img-fluid mb-3 rounded">
-        <p>Personagem original.</p>
-      </div>
+    <!-- 13 -->
+    <div class="modal fade" id="modal13">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">So-min</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p13.png" class="img-fluid mb-3 rounded">
+                    <p>Desenho feito pelo celular à mão de uma personagem para RPG.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- 14 -->
-<div class="modal fade" id="modal14">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Naya e Furfur</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p14.png" class="img-fluid mb-3 rounded">
-        <p>Projeto literário.</p>
-      </div>
+    <!-- 14 -->
+    <div class="modal fade" id="modal14">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Naya e Furfur</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p14.png" class="img-fluid mb-3 rounded">
+                    <p>Desenho feito pelo celular à mão para uma amiga escritora.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- 15 -->
-<div class="modal fade" id="modal15">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Olhos</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p15.png" class="img-fluid mb-3 rounded">
-        <p>Estudo artístico.</p>
-      </div>
+    <!-- 15 -->
+    <div class="modal fade" id="modal15">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Olhos</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p15.png" class="img-fluid mb-3 rounded">
+                    <p>Desenho feito pelo celular à mão de personagens de um projeto pessoal.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- 16 -->
-<div class="modal fade" id="modal16">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Mizu</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p16.png" class="img-fluid mb-3 rounded">
-        <p>Cyberpunk.</p>
-      </div>
+    <!-- 16 -->
+    <div class="modal fade" id="modal16">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mizu</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p16.png" class="img-fluid mb-3 rounded">
+                    <p>Desenho feito pelo celular à mão de uma personagem para RPG inspirado na obra Cyberpunk.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- 17 -->
-<div class="modal fade" id="modal17">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Maçã</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p17.png" class="img-fluid mb-3 rounded">
-        <p>Arte digital.</p>
-      </div>
+    <!-- 17 -->
+    <div class="modal fade" id="modal17">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Maçã</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p17.png" class="img-fluid mb-3 rounded">
+                    <p>Desenho feito pelo celular à mão de uma trend artística.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- 18 -->
-<div class="modal fade" id="modal18">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Niyati e Vael</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p18.png" class="img-fluid mb-3 rounded">
-        <p>Projeto pessoal.</p>
-      </div>
+    <!-- 18 -->
+    <div class="modal fade" id="modal18">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Niyati e Vael</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p18.png" class="img-fluid mb-3 rounded">
+                    <p>Desenho feito pelo celular à mão de um projeto pessoal.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- 19 -->
-<div class="modal fade" id="modal19">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h5 class="modal-title">Boneca de Porcelana</h5>
-        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="imagens/p19.png" class="img-fluid mb-3 rounded">
-        <p>Arte final.</p>
-      </div>
+    <!-- 19 -->
+    <div class="modal fade" id="modal19">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title">Boneca de Porcelana</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/p19.png" class="img-fluid mb-3 rounded">
+                    <p>Desenho feito pelo celular à mão de uma trend artística.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-        <!-- FOOTER -->
+    <!-- FOOTER -->
     <footer class="bg-body-tertiary text-white mt-5 py-4 border-top border-secondary">
         <div class="container text-center">
             <div class="d-flex justify-content-center gap-4 fs-4">
@@ -501,7 +515,8 @@
         </div>
     </footer>
 
-<!-- resto dos modais continuam iguais... -->
+    <!-- resto dos modais continuam iguais... -->
 
 </body>
+
 </html>
