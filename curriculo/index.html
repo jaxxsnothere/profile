@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        .perfil-img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+
+<body class="bg-secondary.bg-gradient text-light">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-secondary">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portifolio.html">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Notificações -->
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle position-relative" href="#" role="button"
+                        data-bs-toggle="dropdown">
+                        🔔
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            99+
+                        </span>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Mensagem 1</a></li>
+                        <li><a class="dropdown-item" href="#">Mensagem 2</a></li>
+                        <li><a class="dropdown-item" href="#">Mensagem 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- CONTEÚDO -->
+    <div class="container my-5">
+
+        <div class="row">
+
+            <!-- PERFIL -->
+            <div class="col-lg-3 col-md-4 mb-4">
+
+                <div class="card bg-body-tertiary border-secondary text-light text-center">
+
+                    <img src="/imagens/venus.png" class="card-img-top rounded-circle perfil-img" alt="Perfil">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">Maísa Oliveira Vicente</h3>
+
+                        <p class="text-body-secondary">
+                            17 anos <br>
+                            Estudante de Desenvolvimento de Sistemas <br>
+                            Botucatu - SP
+                        </p>
+
+                        <hr class="border-secondary">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ÁREA PRINCIPAL -->
+            <div class="col-lg-9 col-md-8">
+
+                <!-- EXPERIÊNCIA -->
+                <div class="card bg-body-tertiary border-secondary text-light mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title fs-3 text-light">Experiência Profissional</h2>
+                        <p class="text-body-secondary">
+                            Participação em projetos acadêmicos utilizando HTML, CSS, JavaScript, Bootstrap e Banco de
+                            Dados, vínculado à indústria açucareira de São Manoel e expêriencia média em cozinha de
+                            restaurante.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- ACCORDION PERFIL -->
+                <div class="accordion" id="accordionPerfil">
+
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#sobreMim">
+                                Sobre Mim
+                            </button>
+                        </h2>
+
+
+                        <div id="sobreMim" class="accordion-collapse collapse" data-bs-parent="#accordionPerfil">
+
+
+                            <div class="accordion-body">
+                                Meu nome de registro é Maísa Oliveira Vicente, tenho 17 anos e atualmente estou no
+                                último ano do ensino médio e Curso de Desenvolvimento de Sistemas.
+                                Sou uma pessoa Não-Binário, com preferencia em pronomes masculinos por mais que não me
+                                importe com pronomes femininos.
+                                Mesmo não sendo formalizado em meus documentos ainda por conta de minha idade, possuo um
+                                nome social, sendo ele Vênus Oliveira Vicente.
+                                Sou uma pessoa dedicada, tenho interesse por desenho, atuação (Mesmo sem expêriencia
+                                profissional), programação, leitura e
+                                escrita, o
+                                que me permite poder explorar diferentes áreas e perspectivas.
+                                Fazia Karatê estilo Shotokan, porém infelizmente tive que parar com o treino por conta de uma lesão que tive no joelho durante um treino, parei na faixa amarela.
+                                Tenho grande interesse em aprender coisas novas, Atualmente estou aprendendo a língua
+                                Russa e
+                                tendo conhecimento em inglês intermediário.
+                                Embora ansiosa com interações sociais, busco sempre ser educada e respeitosa.
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="card mb-4">
+                <div class="card-body">
+
+
+                    <div class="accordion" id="accordionDetalhes">
+
+
+                        <!-- HABILIDADES -->
+                        <div class="card bg-body-tertiary border-secondary text-light mb-4">
+                            <div class="card-body">
+
+                                <div class="accordion accordion-flush" id="accordionDetalhes">
+
+                                    <!-- HABILIDADES -->
+                                    <div class="accordion-item bg-body-tertiary border-secondary">
+
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#habilidades">
+                                                Habilidades
+                                            </button>
+                                        </h2>
+
+                                        <div id="habilidades" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionDetalhes">
+
+                                            <div class="accordion-body">
+
+                                                <h5 class="text-light">Hard Skills</h5>
+                                                <ul class="list-group list-group-flush mb-3">
+
+                                                    <li
+                                                        class="list-group-item bg-transparent text-light border-secondary">
+                                                        HTML
+                                                    </li>
+                                                    <li
+                                                        class="list-group-item bg-transparent text-light border-secondary">
+                                                        Backend</li>
+                                                    <li
+                                                        class="list-group-item bg-transparent text-light border-secondary">
+                                                        JavaScript</li>
+                                                    <li
+                                                        class="list-group-item bg-transparent text-light border-secondary">
+                                                        Python</li>
+                                                    <li
+                                                        class="list-group-item bg-transparent text-light border-secondary">
+                                                        MySQL
+                                                    </li>
+
+                                                </ul>
+
+                                                <h5 class="text-light">Soft Skills</h5>
+                                                <ul class="list-group list-group-flush">
+
+                                                    <li
+                                                        class="list-group-item bg-transparent text-light border-secondary">
+                                                        Comunicação</li>
+                                                    <li
+                                                        class="list-group-item bg-transparent text-light border-secondary">
+                                                        Trabalho em equipe</li>
+                                                    <li
+                                                        class="list-group-item bg-transparent text-light border-secondary">
+                                                        Criatividade</li>
+                                                    <li
+                                                        class="list-group-item bg-transparent text-light border-secondary">
+                                                        Organização</li>
+
+                                                    <li
+                                                        class="list-group-item bg-transparent text-light border-secondary">
+                                                        Facilidade de aprender coisas novas</li>
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- FORMAÇÃO -->
+                                    <div class="accordion-item bg-body-tertiary border-secondary">
+
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#formacoes">
+                                                Formações
+                                            </button>
+                                        </h2>
+
+                                        <div id="formacoes" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionDetalhes">
+
+                                            <div class="accordion-body text-body-secondary">
+                                                <p>Ensino médio em andamento</p>
+                                                <p>Curso de Desenvolvimento de Sistemas</p>
+                                                <p>HTML, Backend, JavaScript e Banco de Dados</p>
+                                                <p>Cursos EAD pelo Senai:</p>
+                                                <p>Excel Básico</p>
+                                                <p>Competência Transversal - Segurança no Trabalho</p>
+                                                <p>Por dentro da Segurança Cibernética</p>
+                                                <p>FLUÊNCIA - FUNDAMENTOS DA INTELIGÊNCIA ARTIFICIAL</p>
+                                                <p>Desvendando a Descarbonização</p>
+                                                <p>Ética na Inteligência Artificial</p>
+                                                <p>Desvendando a Indústria 4.0</p>
+                                                <p>Empreender SENAI</p>
+                                                <p>Desvendando o ESG</p>
+                                                <p>Fundamentos da Gestão de Projetos Aplicados na Indústria</p>
+                                                <p>Design Thinking</p>
+                                                <p>Gestão do tempo</p>
+                                                <p>Geração de Valor Circular e Modelos de Negócios</p>
+                                                <p>Cidadania Digital e Uso Consciente da Internet</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- CONTATO -->
+                        <div class="card bg-body-tertiary border-secondary text-light mb-4">
+                            <div class="card-body">
+
+                                <h2 class="card-title fs-3 text-light">Contato</h2>
+
+                                <div class="accordion accordion-flush" id="accordionContato">
+
+                                    <!-- EMAIL -->
+                                    <div class="accordion-item bg-body-tertiary border-secondary">
+
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#emailContato">
+                                                Email
+                                            </button>
+                                        </h2>
+
+                                        <div id="emailContato" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionContato">
+
+                                            <div class="accordion-body">
+                                                vimavamima@gmail.com
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- TELEFONE -->
+                                    <div class="accordion-item bg-body-tertiary border-secondary">
+
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#telefoneContato">
+                                                Telefone
+                                            </button>
+                                        </h2>
+
+                                        <div id="telefoneContato" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionContato">
+
+                                            <div class="accordion-body">
+                                                (14) 991475250
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOOTER -->
+            <footer class="bg-body-tertiary text-white mt-5 py-4 w-100 border-top border-secondary">
+
+                <div class="container-fluid text-center">
+
+                    <div class="d-flex justify-content-center gap-4 fs-4">
+
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/eu__jaxx" target="_blank"
+                            class="text-white text-decoration-none">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+
+                        <!-- WhatsApp -->
+                        <a href="https://wa.me/5514991475250" target="_blank" class="text-white text-decoration-none">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+
+                        <!-- GitHub -->
+                        <a href="https://github.com/jaxx_vnss" target="_blank" class="text-white text-decoration-none">
+                            <i class="bi bi-github"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+            </footer>
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
